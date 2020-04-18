@@ -17,11 +17,15 @@ h1 {
 }
 .download {
     margin: 10px;
+    transition: all 1s;
+}
+.download:hover {
+    transform: scale(1.1);
 }
 
 h2 {
     padding: 20px;
-    
+
     text-transform: uppercase;
     justify-content: center;
 }
@@ -36,8 +40,10 @@ nav ul li a {
     display: flex;
     text-transform: uppercase;
     justify-content: center;
-  }
-  .mainpage {
+}
+
+
+.mainpage {
     height: 100vh;
     text-align: center;
     justify-content: center;
