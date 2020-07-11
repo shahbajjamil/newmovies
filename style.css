@@ -17,6 +17,14 @@ h1 {
   padding: 10px;
   text-align: center;
 }
+h2 {
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+h4 {
+  margin: 10px auto;
+}
 .mainpage {
   height: 100vh;
   display: flex;
@@ -35,6 +43,17 @@ h1 {
   transition: all 1s;
   background: #e9eb87;
 }
+img {
+  width: 100%;
+  height: auto;
+}
+
+.screenShot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 .box:hover {
   transform: scale(1.1);
 }
@@ -44,11 +63,7 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-h2 {
-  padding: 20px;
-  text-transform: uppercase;
-  justify-content: center;
-}
+
 
 nav ul li a {
   color: red;
