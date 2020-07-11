@@ -64,7 +64,6 @@ img {
   justify-content: center;
 }
 
-
 nav ul li a {
   color: red;
   border: 3px solid red;
@@ -77,10 +76,9 @@ nav ul li a {
   justify-content: center;
 }
 nav ul li a:hover {
-    background-color: #04f604;
-    color:#6868fa;
+  background-color: #04f604;
+  color: #6868fa;
   border: 3px solid #04f604;
-
 }
 footer {
   display: none;
