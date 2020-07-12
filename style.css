@@ -25,6 +25,10 @@ h2 {
 h4 {
   margin: 10px auto;
 }
+h2 span {
+  color:#d83621;
+  border-bottom: 3px solid black;
+}
 .mainpage {
   height: 100vh;
   display: flex;
