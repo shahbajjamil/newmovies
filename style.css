@@ -6,6 +6,8 @@
   text-decoration: none;
   list-style: none;
   font-family: "Poppins", sans-serif;
+  text-align: center;
+
   /* box-sizing: border-box; */
 }
 header {
@@ -46,6 +48,9 @@ h2 span {
   margin: 10px;
   transition: all 1s;
   background: #e9eb87;
+}
+.box p {
+  text-align: center;
 }
 img {
   width: 100%;
