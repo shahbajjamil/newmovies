@@ -31,6 +31,26 @@ h2 span {
   color:#d83621;
   border-bottom: 3px solid black;
 }
+.request {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+input {
+  font-size: 15px;
+  padding: 5px;
+}
+button {
+  margin:10px;
+  padding: 5px 10px;
+  border: none;
+  background: #43d3f7;
+  cursor: pointer;
+}
+button:hover {
+  background: #22f322;
+}
 .mainpage {
   height: 100vh;
   display: flex;
